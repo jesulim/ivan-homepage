@@ -53,7 +53,7 @@ const Page = () => {
             para todo lo relacionado con el lanzamiento de productos, desde la planificación y el diseño hasta el lanzamiento. Le encanta resolver problemas de la vida real con código.
           </Paragraph>
           <Box align="center" my={4}>
-            <NextLink href="/works">
+            <NextLink href="/works" passHref>
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 Mi portafolio
               </Button>
@@ -159,7 +159,7 @@ const Page = () => {
         </Section>
 
         <Box align="center" my={4}>
-          <NextLink href="/posts">
+          <NextLink href="/posts" passHref>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Publicaciones Populares
             </Button>
