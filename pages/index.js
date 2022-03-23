@@ -1,11 +1,10 @@
 import NextLink from 'next/link'
-import { Link, List, ListItem, SimpleGrid, Icon, Button, Container, Box, Heading, Image, useColorModeValue, Checkbox } from "@chakra-ui/react"
+import { Link, List, ListItem, Icon, Button, Container, Box, Heading, Image, useColorModeValue } from "@chakra-ui/react"
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from "../components/paragraph"
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
-import { GridItem } from '../components/grid-item'
 import { IoLogoGithub, IoLogoFacebook, IoLogoGoogle } from 'react-icons/io5'
 import { Progress } from '@chakra-ui/react'
 
@@ -120,11 +119,11 @@ const Page = () => {
           <Paragraph>
             PHP
           </Paragraph>
-          <Progress value={70} size="sm" colorScheme='orange'/>
+          <Progress value={70} size="sm" colorScheme='orange' />
           <Paragraph>
             Laravel
           </Paragraph>
-          <Progress value={80} size="sm" colorScheme='orange'/>
+          <Progress value={80} size="sm" colorScheme='orange' />
         </Section>
 
         <Section delay={0.3}>
